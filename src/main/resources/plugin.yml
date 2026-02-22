@@ -1,0 +1,23 @@
+name: InviteTokens
+version: 1.2.1
+main: com.ayhan.invitetokens.InviteTokensPlugin
+api-version: '1.17'
+
+commands:
+  invite:
+    description: "Create or redeem invite codes"
+    usage: "/invite [code]"
+    permission: "invitetokens.invite"
+  inviteop:
+    description: "Force-verify a player without a token (OP only)"
+    usage: "/inviteop <playerName>"
+    permission: "invitetokens.inviteop"
+
+permissions:
+  invitetokens.invite:
+    description: "Allow creating and redeeming invite codes"
+    default: true
+
+  invitetokens.inviteop:
+    description: "Allow using /inviteop (OP only)"
+    default: op
