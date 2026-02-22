@@ -33,9 +33,11 @@ Operators have unlimited token generation privileges.
 
 ---
 
-## Installation (In Case)
+## Installation
 
 Drop the .jar file into plugins folder of the server
+
+---
 
 ## 🛡 How It Works
 
