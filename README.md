@@ -15,7 +15,7 @@ Instead of manually editing server files, administrators can dynamically control
 Players cannot perform any in-game actions until they activate their account.
 
 ### 🔹 Player Activation
-/invite <token>
+/invite TOKEN
 
 Activates the player using a valid invite token.
 
@@ -25,7 +25,7 @@ Activates the player using a valid invite token.
 Generates a new invite token.
 
 ### 🔹 Operator Force Verification
-/inviteop <player>
+/inviteop UUID
 
 Allows an **operator** to manually verify a player without consuming a token.
 
